@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+ <link rel="stylesheet" href="./assets/css/demo3.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+ <title>Document</title>
+</head>
+<body>
+ <div class="container">
+  <div class="navigation active">
+   <ul>
+    <li class="logo-header">
+     <a href="">
+      <span class="icon"><img src="./image/lg1.png" alt=""></span>
+      <span class="title">
+       <strong class="title">ĐÀO TẠO</strong>
+        <span >HẢI QUAN VIỆT NAM</span>
+      </span>
+     </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="icon"><i class="fa fa-home" aria-hidden="true"></i></span>
+        <span class="title">TRANG CHỦ</span>
+      </a>
+    </li>
+    <li>
+
+      <a href="#">
+        <span class="icon"><i class="fa fa-graduation-cap" aria-hidden="true"></i></span>
+        <span class="title">PHÒNG HỌC TRỰC TUYẾN</span>
+      </a>
+    </li>
+    <li>
+      <a href="demo3.html">
+        <span class="icon"><i class="fa fa-puzzle-piece" aria-hidden="true"></i></span>
+        <span class="title">KỲ THI</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="icon"><i class="fa fa-pie-chart" aria-hidden="true"></i></span>
+        <span class="title">BẢNG XẾP HẠNG</span>
+      </a>
+    </li>
+    <li>
+
+      <a href="#">
+        <span class="icon"><i class="fa fa-search" aria-hidden="true"></i></span>
+        <span class="title">KHẢO SÁT</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="icon"><i class="fa fa-file-text" aria-hidden="true"></i></span>
+        <span class="title">THƯ VIỆN</span>
+      </a>
+    </li>
+    <li>
+      <a href="#">
+        <span class="icon"><i class="fa fa-comments" aria-hidden="true"></i></span>
+        <span class="title">DIỄN ĐÀN</span>
+      </a>
+    </li>
+    <div class="copyright">
+      <span><strong></strong> © 2021 Copyright Thanh Cong A Chau All Right
+         Reserved - Ulearn:3.0.0</span>
+      <span>Built with support of USAID</span>
+    </div>
+   </ul>
+  </div>
+  <div class="main active">
+   <div class="topbar">
+    <div class="toggle active" onclick="toggleMenu();">
+      <span class="title">
+        <h2 >KÌ THI</h2>
+        <p >Trang chủ / Kỳ thi</p>
+      </span>
+    </div>
+    <div class="search">
+      <input type="text" placeholder="Tìm kiếm....">
+      <i class="fa fa-search" aria-hidden="true"></i>
+    </div>
+    <div class="notifi">
+      <ul>
+        <li>
+          <img src="./image/Flag.png" alt="">
+        </li>
+      </ul>
+    </div>
+    <div class="notifi">
+      <ul>
+        <li>
+          <i class="fas fa-bell"></i>
+          <span class="noti-num">52</span>
+        </li>
+      </ul>
+    </div>
+    <div class="user">
+     <img src="./image/daidien.png" alt="">
+     <div>
+       <h4>Trần Đức Hiếu</h4>
+       <small>Giảng viên</small>
+     </div>
+    </div>
+   </div>
+   <div class="parent">  
+    <div class="content">
+     <h3 class="check-mouse">KIỂM TRA TỔNG QUÁT</h3>
+     <div class="btn1">
+         <button class="edit">
+          Sửa nội dung
+         </button>
+         <button class="manager">
+           Quản lý kì thi
+         </button>
+     </div>
+     <div class="accordion">
+      <div class="panel"></div>
+      <li>
+       <i class="fa fa-angle-right" aria-hidden="true"> 
+         <span>Sơ lược</span></i>
+      </li>
+   </div>
+   <div class="accordion">
+     <div class="panel">
+       <li>
+         <i class=" fa fa-angle-right" aria-hidden="true">
+           <span> Giới thiệu</span></i>
+       </div>
+     </li>
+   </div>
+    </div>
+    <div class="inform-right">
+        <ul>
+          <li><div class="icon-right"><i class="fa fa-exclamation-circle" aria-hidden="true"> </i><span> Kì thi khả dụng</span></div><div><span class="value-right"></span></div></li>
+          <li><div class="icon-right"><i class="fa fa-check" aria-hidden="true"> </i><span>Trạng thái xuất bản</span></div><div><span class="value-right">Mo</span></div></li>
+          <li><div class="icon-right"><i class="fa fa-user-secret" aria-hidden="true"> </i><span>Giám sát viên</span></div><div><span class="value-right">Vu Hong Van, Nguyen Dinh Phien,<br> Dao Nguyen Duy Khanh</span></div></li>
+          <li><div class="icon-right"><i class="fa fa-calendar-minus-o" aria-hidden="true"> </i><span>Ngày bắt đầu</span></div><div><span class="value-right">21/07/2021</span></div></li>
+          <li><div class="icon-right"><i class="fa fa-calendar-check-o" aria-hidden="true"> </i><span>Ngày kết thúc</span></div><div><span class="value-right">21/07/2021</span></div></li>
+          <li><div class="icon-right"><i class="fa fa-clock-o" aria-hidden="true"> </i><span> Thời gian</span></div><div><span class="value-right">60 phút</span></div></li>
+          <li><div class="icon-right"><i class="fa fa-question-circle" aria-hidden="true"> </i><span> Số câu hỏi</span></div><div><span class="value-right">13</span></div></li>
+        </ul>
+    </div>
+   </div>
+  </div>
+  <script>
+    function toggleMenu() {
+      let toggle = document.querySelector('.toggle');
+      let navigation = document.querySelector('.navigation');
+      let main = document.querySelector('.main');
+      toggle.classList.toggle('active');
+      navigation.classList.toggle('active')
+      main.classList.toggle('active')
+    }
+  </script>
+  <script>
+    let list = document.querySelectorAll(".navigation li");
+  
+  function activeLink() {
+    list.forEach((item) =>
+      item.classList.remove('hoverted'));
+    this.classList.add('hoverted');
+  }
+  list.forEach((item) =>
+    item.addEventListener('mouseover', activeLink));
+  </script>
+  <script src="./assets/js/demo.js"></script>
+</body>
